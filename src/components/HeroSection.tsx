@@ -30,7 +30,6 @@ const AnimatedText = ({ text, className }: { text: string; className?: string })
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background image with overlay */}
       <div className="absolute inset-0">
         <motion.div
           initial={{ scale: 1.15 }}
@@ -45,7 +44,6 @@ const HeroSection = () => {
         />
       </div>
 
-      {/* Floating decorative elements */}
       <motion.div
         className="absolute top-20 right-20 w-72 h-72 rounded-full opacity-20"
         style={{ background: "var(--gradient-amber)" }}
@@ -71,16 +69,15 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-display text-primary tracking-[0.3em] uppercase text-sm mb-6 font-medium"
           >
-            Lead Engineer · Rider · Explorer
+            Full Stack Developer · Engineering Lead · Explorer
           </motion.p>
 
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight mb-8">
-            <AnimatedText text="Building" />
+            <AnimatedText text="Rajkumar" />
             <br />
             <span className="text-gradient">
-              <AnimatedText text="Better" />
-            </span>{" "}
-            <AnimatedText text="Systems." />
+              <AnimatedText text="Senthil" />
+            </span>
           </h1>
 
           <motion.p
@@ -89,8 +86,8 @@ const HeroSection = () => {
             transition={{ delay: 1.2, duration: 0.7 }}
             className="font-body text-muted-foreground text-lg md:text-xl max-w-lg leading-relaxed"
           >
-            Engineering leader by day, adventurer by instinct. Driven by curiosity
-            to explore how things work—and how to make them better.
+            Full-stack engineer with 4+ years building scalable, workflow-intensive
+            applications. Rider, adventurer, and aspiring entrepreneur from Chennai.
           </motion.p>
 
           <motion.div
@@ -99,7 +96,7 @@ const HeroSection = () => {
             transition={{ delay: 1.6, duration: 0.6 }}
             className="mt-10 flex gap-4 flex-wrap"
           >
-            {["Facilio", "Prop-Tech", "4+ Years"].map((tag, i) => (
+            {["Facilio", "Java & Vue.js", "4+ Years", "Chennai"].map((tag, i) => (
               <motion.span
                 key={tag}
                 initial={{ opacity: 0, scale: 0.8 }}

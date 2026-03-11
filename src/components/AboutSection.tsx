@@ -5,17 +5,17 @@ const bios = [
   {
     label: "Professional",
     content:
-      "With nearly four years of experience in engineering leadership, I specialize in building scalable solutions and leading technical teams at Facilio. I thrive at the intersection of complex problem-solving and streamlined execution. When I'm not behind a screen, I'm usually chasing the horizon on my motorcycle or competing on the pitch with Facilio F.C. Whether it's navigating a difficult codebase, trekking through the mountains, or scouting the next coastal destination, I'm driven by a constant curiosity to explore how things work—and how to make them better.",
+      "Full-stack software engineer with 4+ years of experience developing scalable, workflow-intensive applications using Java and Vue.js at Facilio. I've designed automation engines, built enterprise-grade integrations, and optimized database performance for high-availability platforms. Currently serving as Engineering Lead, managing the CMMS Modules team with end-to-end ownership of product roadmap, development, delivery, and alignment.",
   },
   {
-    label: "Visionary",
+    label: "Builder",
     content:
-      "By day, I serve as a Lead Engineer, focused on the evolving landscape of prop-tech and industrial automation. By night (and weekends), I'm an aspiring entrepreneur with a deep interest in industrial operations and sustainable business models. My approach to life is high-velocity: I'm a dedicated soccer player, an avid traveler who finds equal peace in the mountains and on the beach, and a rider who believes the best way to see the world is on two wheels. I believe in hard work, technical precision, and the power of a well-timed Demon Slayer marathon to recharge the creative batteries.",
+      "I've owned architecture and enhancement of core CMMS/CAFM modules, built Invoice modules from the ground up, and architected configurable PM scheduling engines supporting complex recurrence and multi-site execution. From integrating AutoCAD drawings with Mapbox for interactive floor plans to building visitor management systems that improved security compliance by 90% — I thrive on solving complex problems end-to-end.",
   },
   {
-    label: "In Brief",
+    label: "Beyond Code",
     content:
-      "Lead Engineer at Facilio with a passion for building efficient systems and leading high-performing teams. Beyond the tech stack, I'm a soccer player, an adventurer who oscillates between mountain peaks and ocean breezes, and a motorcycle enthusiast. I'm currently balancing my love for engineering with a growing interest in industrial entrepreneurship.",
+      "When I'm not behind a screen, I'm chasing horizons on my motorcycle, competing on the pitch, or trekking through the mountains. I'm an aspiring entrepreneur with a deep interest in industrial operations. Whether it's navigating a difficult codebase, exploring unknown trails, or planning the next coastal ride — I'm driven by curiosity to explore how things work and how to make them better.",
   },
 ];
 
