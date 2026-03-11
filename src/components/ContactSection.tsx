@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, Twitter, Sparkles } from "lucide-react";
+import { Mail, Linkedin, Github, Twitter, Phone, MapPin, Sparkles } from "lucide-react";
 import { FloatingParticles } from "./AnimatedElements";
 
 const socials = [
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/srk-rajkumar/" },
   { icon: Github, label: "GitHub", href: "https://github.com" },
   { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
 ];
@@ -38,12 +38,36 @@ const ContactSection = () => {
             className="h-1 rounded-full mx-auto mb-8"
             style={{ background: "var(--gradient-amber)" }}
           />
-          <p className="text-muted-foreground text-lg max-w-md mx-auto mb-10">
+          <p className="text-muted-foreground text-lg max-w-md mx-auto mb-6">
             Whether it's about engineering, entrepreneurship, or the next great ride — I'd love to hear from you.
           </p>
 
+          {/* Contact details */}
+          <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm text-muted-foreground">
+            <motion.a
+              href="tel:+916379271851"
+              whileHover={{ scale: 1.05, color: "hsl(var(--primary))" }}
+              className="flex items-center gap-2 transition-colors"
+            >
+              <Phone className="w-4 h-4 text-primary" />
+              6379271851
+            </motion.a>
+            <motion.a
+              href="mailto:rajkumarsenthil02@gmail.com"
+              whileHover={{ scale: 1.05, color: "hsl(var(--primary))" }}
+              className="flex items-center gap-2 transition-colors"
+            >
+              <Mail className="w-4 h-4 text-primary" />
+              rajkumarsenthil02@gmail.com
+            </motion.a>
+            <span className="flex items-center gap-2">
+              <MapPin className="w-4 h-4 text-primary" />
+              Chennai, 600032
+            </span>
+          </div>
+
           <motion.a
-            href="mailto:hello@example.com"
+            href="mailto:rajkumarsenthil02@gmail.com"
             whileHover={{ scale: 1.08, boxShadow: "0 8px 40px -6px hsl(24 85% 48% / 0.5)" }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-primary text-primary-foreground font-display font-semibold text-lg shadow-[var(--shadow-glow)] transition-shadow"
