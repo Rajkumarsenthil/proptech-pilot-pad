@@ -39,7 +39,7 @@ const HeroSection = () => {
           style={{ backgroundImage: `url(${heroBg})` }} />
         
         <div
-          className="absolute inset-0 opacity-70"
+          className="absolute inset-0 opacity-40"
           style={{ background: "var(--gradient-hero)" }} />
         
       </div>
