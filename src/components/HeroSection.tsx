@@ -95,6 +95,7 @@ const HeroSection = () => {
           style={{ background: "var(--gradient-hero)" }}
         />
         <div className="absolute inset-0 hero-text-overlay" />
+        <div className="absolute inset-x-0 bottom-0 h-[36vh] hero-bottom-blend pointer-events-none" />
       </div>
 
       <motion.div
